@@ -1,0 +1,167 @@
+/*================ common style start ===================*/
+	*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	}
+	.container{
+	width:100%;
+	margin:0 auto;
+	padding:15px 0;
+	}
+	.col-1{
+	width:8.33% !important;
+	padding:15px 0;
+	}
+	.col-2{
+	width:16.66% !important;
+	padding:15px 0;
+	}
+	.col-3{
+	width:25% !important;
+	padding:15px 0;
+	}
+	.col-4{
+	width:33.33% !important;
+	padding:15px 0;
+	}
+	.col-5{
+	width:41.66% !important;
+	padding:15px 0;
+	}
+	.col-6{
+	width:50% !important;
+	padding:15px 0;
+	}
+	.col-7{
+	width:58.33% !important;
+	padding:15px 0;
+	}
+	.col-8{
+	width:66.66% !important;
+	padding:15px 0;
+	}
+	.col-9{
+	width:75% !important;
+	padding:15px 0;
+	}
+	.col-10{
+	width:83.33% !important;
+	padding:15px 0;
+	}
+	.col-11{
+	width:91.66% !important;
+	padding:15px 0;
+	}
+	.col-12{
+	width:100% !important;
+	padding:15px 0;
+	}
+ /*================ common style end ===================*/
+ /*================ Header style start =================*/
+ /*================ Header style start =================*/
+header{
+	/* background-color:rgb(60, 60, 60); */
+	padding:15 0;
+	
+}
+.row{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items:center;
+}
+.container{
+	width:90%;
+	margin:0 auto;
+}
+.ARSHA-content{
+	text-align:center;
+}
+.ARSHA-content h2 a{
+	text-decoration:none;
+	position:relative;
+}
+.main-manu-content ul{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+	color:yellow;
+	list-style:none;
+}
+.main-manu-content ul li a{
+	text-decoration:none;
+	position:relative;
+}
+.main-manu-content ul li a{
+	color:white;
+	margin-left:10px;
+}
+.main-manu-content ul li a:hover::after{
+	width:100%;
+}
+.main-manu-content ul li a.active::after{
+	width:100%;
+}
+header{
+	padding:15px 0;
+}
+.row{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+	align-items:center;
+}
+.container{
+	width:90%;
+	margin:0 auto;
+}
+.main-nav h2 a{
+	position:relative;
+	text-align:center;
+	text-decoration:none;
+}
+.main-nav h2 a::after{
+	content:"";
+	background-color:orange;
+	width:5px;
+	height:5px;
+	border-radius:25px;
+	position:absolute;
+	top:21px;
+}
+.menu-bar ul{
+	display:flex;
+	color:#fff;
+	list-style:none;
+	justify-content:space-evenly;
+}
+.menu-bar ul li a{
+	text-decoration:none;
+	position:relative;
+}
+.menu-bar ul li a i{
+	margin-left:10px;
+}
+.menu-bar ul li a::after{
+	content:"";
+	background-color:orange;
+	width:0%;
+	height:5px;
+	bottom:-4px;
+	left:0px;
+	transition:all 0.55s ease;
+	position:absolute;
+	
+}	
+.menu-bar ul li a:hover{
+    text-decoration:none;	
+	color:orange;
+} 
+.menu-bar ul li a.active{
+	text-decoration:none;
+	color:orange;
+}
+/* .menu-bar ul li a:hover{ */
+/* } */
+/*================ Header style end =================*/
